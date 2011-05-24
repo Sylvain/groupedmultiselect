@@ -4,7 +4,8 @@
  * @locale en, en-US
  */
 
-$.extend($.ui.multiselect.locale, {
+$.extend($.ui.grouped-multiselect.locale, {
+	sectionName:'Sections', 
 	addAll:'Add all',
 	removeAll:'Remove all',
 	itemsCount:'items selected'

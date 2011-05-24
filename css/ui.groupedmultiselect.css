@@ -1,0 +1,32 @@
+/* Grouped Multiselect
+----------------------------------*/
+
+.ui-grouped-multiselect { border: solid 1px; font-size: 0.8em; }
+.ui-grouped-multiselect ul { -moz-user-select: none; }
+.ui-grouped-multiselect li { margin: 0; padding: 0; cursor: default; line-height: 20px; height: 20px; font-size: 11px; list-style: none; }
+.ui-grouped-multiselect li a { color: #999; text-decoration: none; padding: 0; display: block; float: left; cursor: pointer;}
+
+.ui-grouped-multiselect div.sections { position: relative; padding: 0; margin: 0; border: 0; float:left; }
+.ui-grouped-multiselect ul.sections { position: relative; padding: 0; overflow: auto; overflow-x: hidden; background: #fff; margin: 0; list-style: none; border: 0; position: relative; width: 100%; }
+.ui-grouped-multiselect ul.sections li { padding-left: 10px; }
+
+.ui-grouped-multiselect div.items { position: relative; padding: 0; margin: 0; border: 0; float:left; border-left: 1px solid; }
+.ui-grouped-multiselect ul.items { position: relative; padding: 0; overflow: auto; overflow-x: hidden; background: #fff; margin: 0; list-style: none; border: 0; width: 100%; }
+.ui-grouped-multiselect ul.items li { padding-left: 10px; }
+.ui-grouped-multiselect ul.items li label { display: block; line-height: 20px;}
+.ui-grouped-multiselect ul.items li span { padding-left: 5px;}
+
+ 
+.ui-grouped-multiselect .ui-state-default { border: none; margin-bottom: 1px; position: relative; padding-left: 20px;}
+.ui-grouped-multiselect .ui-state-hover { border: none; }
+.ui-grouped-multiselect .ui-widget-header {border: none; font-size: 11px; margin-bottom: 1px;}
+ 
+.ui-grouped-multiselect .section-title { float: left; padding: 7px;}
+.ui-grouped-multiselect .add-all { float: right; padding: 7px;}
+.ui-grouped-multiselect .remove-all { float: right; padding: 7px;}
+.ui-grouped-multiselect .search { float: left; padding: 4px;}
+
+.ui-grouped-multiselect li span.ui-icon-triangle-1-e { position: absolute; right: 2px; top: 2px; }
+.ui-grouped-multiselect li a.action {  float: none; display: block; line-height: 20px;}
+ 
+.ui-grouped-multiselect input.search { height: 14px; padding: 1px; opacity: 0.5; margin: 4px; width: 100px; }
